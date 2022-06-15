@@ -130,3 +130,6 @@ dmypy.json
 
 #.idea
 .idea
+
+# untrack list
+untrack_dir
