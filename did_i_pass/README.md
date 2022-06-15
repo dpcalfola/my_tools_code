@@ -2,15 +2,19 @@
 
 <br>
 
+> ### Execution file : pass_fail_calculator.py
+
+<br>
+
 > ### mode 1 - Calculate pass/fail from the total score
->>RECEIVE:
+>> RECEIVE:
 >>
 >>The number of total questions
 >>
 >>Number of Correct or incorrect answers
 >>
 >
->>SHOW:
+>> SHOW:
 >>
 >>Percentage converted_score
 >>
@@ -18,15 +22,15 @@
 
 <br>
 
->### mode 2 - Calculate failure of each subject and pass/fail
->>RECEIVE:
+> ### mode 2 - Calculate failure of each subject and pass/fail
+>> RECEIVE:
 >>
 >>The number of questions in each subject
 >>
 >>Number of correct or incorrect answers in each subject
 >>
 >
->>SHOW:
+>> SHOW:
 >>
 >>Percentage converted_score in each subject
 >>
