@@ -3,9 +3,6 @@ import sys
 # json library
 import json
 
-# Load snippets
-from did_i_pass.modes import snippets
-
 # Load config.json
 config_path = sys.path[1] + "/did_i_pass/config.json"
 with open(config_path, "r") as json_file:

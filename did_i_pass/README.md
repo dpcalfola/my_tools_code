@@ -1,4 +1,4 @@
-# Certification exam Pass/Fail calculator (Ver 1.0)
+# Certification exam Pass/Fail calculator (Ver 1.01)
 
 <br>
 
@@ -46,3 +46,6 @@
 >> Acceptance score: 60%
 >>
 >> Subject fail score: 40%
+>
+>> If you want to change the criterion value,
+>> change config variable in set_config.py then execute it

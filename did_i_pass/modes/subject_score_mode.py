@@ -143,8 +143,8 @@ def print_result(subjects_obj_list: list, overall: dict):
     # Print config data
     print()
     print('====================== CONFIG ======================')
-    print(f'acceptance_score: {acceptance_score}')
-    print(f'subject_fail_score: {subject_fail_score}')
+    print(f'acceptance_score: {acceptance_score}%')
+    print(f'subject_fail_score: {subject_fail_score}%')
 
     #
     print()
@@ -160,7 +160,7 @@ def print_result(subjects_obj_list: list, overall: dict):
         print(f'input_score: {subject.input_score}')
         print(f'correct: {subject.correct}')
         print(f'incorrect: {subject.incorrect}')
-        print(f'converted_subject_score: {subject.converted_subject_score}')
+        print(f'converted_subject_score: {subject.converted_subject_score:.2f}%')
         print(f'subject_fail: {subject.fail_message}')
 
     # Print overall result
@@ -173,7 +173,7 @@ def print_result(subjects_obj_list: list, overall: dict):
     print('< OVERALL >')
     print(f'total_questions: {total_questions}')
     print(f'total_correct: {total_correct}')
-    print(f'your_score: {total_converted_score}')
+    print(f'your_score: {total_converted_score:.2f}%')
     print(f'is_pass_overall: {is_pass_overall}')
 
     # Print Consequence
