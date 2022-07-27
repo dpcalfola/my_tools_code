@@ -2,4 +2,4 @@
 
 
 > ### 1. Certification exam Pass/Fail calculator (Ver 1.01)
-> ### /did_i_pass/pass_fail_calculator.py
+> > [Project README.md Link :] (https://github.com/dpcalfola/toy_projects/tree/main/did_i_pass)
