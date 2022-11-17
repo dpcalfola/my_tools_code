@@ -132,5 +132,9 @@ dmypy.json
 .idea
 .DS_Store
 
+
+# project venv
+venv_toy_projects
+
 # untrack list
 untrack_dir
